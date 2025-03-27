@@ -1,0 +1,57 @@
+<!-- Customize Umbrella HTML Code-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umbrella Customizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="customizer">
+        <h1 id="title">Customize Your Umbrella</h1>
+        
+        <!-- Display Umbrella -->
+        <div class="umbrella-container">
+            <img id="umbrella" src="images/Pink_umbrella.png" alt="Umbrella">
+            <img id="logo-preview" src="" alt="Logo Preview">
+        </div>
+
+        <!-- Upload Logo -->
+        <input type="file" id="logo-upload" accept="image/*">
+        
+        <!-- Color Selector -->
+        <div class="color-selector">
+            <button class="color-btn pink" data-color="pink">Pink</button>
+            <button class="color-btn blue" data-color="blue">Blue</button>
+            <button class="color-btn yellow" data-color="yellow">Yellow</button>
+        </div>
+    </div>
+
+    <script src="umbrella.js"></script>
+</body>
+</html>
+
+
+<!-- Algorithm:
+
+Create UI Elements
+
+An image of the umbrella.
+
+Three color swatch buttons (Pink, Blue, Yellow).
+
+A file input for uploading logos.
+
+A preview area where the uploaded logo is placed on the umbrella.
+
+Event Handling
+
+Clicking a color swatch changes the umbrella image and theme.
+
+Uploading a logo overlays it onto the umbrella.
+
+The logo is positioned at the bottom of the umbrella. -->
+
